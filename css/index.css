@@ -845,7 +845,7 @@ body {
     /* justify-content: center; */
     flex-wrap: wrap;
     gap: 1rem;
-    width: calc((100% - 11rem) / 1);
+    width: calc((100% - 12rem) / 1);
   }
   footer .foot p:nth-child(3) {
     display: none;
