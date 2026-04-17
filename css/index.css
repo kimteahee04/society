@@ -290,7 +290,7 @@ a {
     display: flex;
     gap: 1rem;
     align-items: center;
-    margin: 20px 0px;
+    margin: 20px auto;
     font-size: 1.5rem;
     width: 1200px;
   }
@@ -437,7 +437,6 @@ a {
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1025px) {
   .con01 .add {
-    border: 1px solid red;
     display: block;
 
     position: relative;
@@ -463,6 +462,110 @@ a {
     height: 250px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
+  }
+  .con01 .right li img {
+    width: 30%;
+    height: 250px;
+  }
+
+  /* con03 */
+  .con03 .question {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 1.5rem;
+    width: 1200px;
+  }
+  #container .con03 .happy {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 430px;
+    /* border: 1px solid blue; */
+    position: relative;
+  }
+  #container .con03 .woeks {
+    /* border: 1px solid red; */
+    width: 320px;
+  }
+  #container .con03 .woeks .red_a {
+    right: 0%;
+  }
+  #container .con03 .woeks .red_d {
+    right: 0%;
+  }
+  #container .con03 .woeks .red_c {
+    right: 0%;
+  }
+  /* sns */
+  #container .con03 .sns {
+    width: 320px;
+  }
+  #container .con03 p {
+    font-size: 17px;
+  }
+  #container .con03 .sns1 {
+    font-size: 18px;
+    margin: 0px;
+    height: 100%;
+  }
+  #container .con03 .sns .img3 img {
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 200px;
+    right: 35%;
+    bottom: 0%;
+  }
+  /* 뉴스 */
+  #container .con03 .news {
+    /* border: 1px solid red; */
+    width: 320px;
+  }
+  #container .con03 .news2 {
+    margin: 0px;
+  }
+  #container .con03 .news p {
+    /* border: 1px solid red; */
+    font-size: 17px;
+  }
+  #container .con03 .news .img4 {
+    /* border: 1px solid red; */
+    display: block;
+    margin-left: 0px;
+    width: 200px;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+  }
+  /* footer */
+  footer {
+    background-color: #252726;
+    height: 100px;
+
+    color: #fff;
+  }
+  footer .last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 20px;
+  }
+
+  footer .last2 {
+    /* border: 1px solid red; */
+    display: flex;
+
+    gap: 1rem;
+  }
+  footer .last2 a {
+    /* border: 1px solid red; */
+    display: block;
+  }
+  footer .last2 img {
+    /* border: 1px solid red; */
+    display: block;
   }
 }
 
