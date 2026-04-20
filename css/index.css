@@ -436,132 +436,92 @@ a {
 }
 /* 태블릿 */
 @media (min-width: 768px) and (max-width: 1025px) {
-  .con01 .add {
+  body .con01 .add {
     display: block;
-
-    position: relative;
   }
-  .con01 .add .bg2 {
+  body #container .con03 .happy {
+    /* border: 1px solid blue; */
+    width: 85%;
+  }
+  body .con01 .add .bg2 {
     width: 100%;
   }
-  .con01 .left img {
-    width: 400px;
-    position: absolute;
-    right: -90%;
-  }
-  .con01 .right a {
-    background-color: #faf5ea;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin: 10px 0px;
-  }
-  .con01 .right img {
+  body .con01 .right img {
     display: block;
-    width: 30%;
-    height: 250px;
+    width: 20%;
+    height: 150px;
     object-fit: cover;
     border-radius: 20px 0px 0px 20px;
   }
-  .con01 .right li img {
-    width: 30%;
-    height: 250px;
-  }
+  /* happy */
 
-  /* con03 */
-  .con03 .question {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin: 20px auto;
-    font-size: 1.5rem;
-    width: 1200px;
-  }
-  #container .con03 .happy {
-    display: flex;
-    gap: 1rem;
-    width: 100%;
-    height: 430px;
+  body #container .con03 .happy {
     /* border: 1px solid blue; */
+    display: flex;
+    width: 100%;
+    margin: 0px;
     position: relative;
   }
-  #container .con03 .woeks {
-    /* border: 1px solid red; */
-    width: 320px;
+
+  body #container .con03 .woeks .red_a {
+    position: absolute;
+    right: 5%;
   }
-  #container .con03 .woeks .red_a {
-    right: 0%;
+  body #container .con03 .woeks .red_d {
+    position: absolute;
+    top: 36%;
+    right: 5%;
   }
-  #container .con03 .woeks .red_d {
-    right: 0%;
-  }
-  #container .con03 .woeks .red_c {
-    right: 0%;
+  body #container .con03 .woeks .red_c {
+    position: absolute;
+    bottom: 17%;
+    right: 5%;
   }
   /* sns */
-  #container .con03 .sns {
-    width: 320px;
+  body #container .con03 .sns1 {
+    margin: 0px;
+    width: 317px;
+    height: 499px;
+    position: relative;
+    font-size: 1rem;
   }
-  #container .con03 p {
-    font-size: 17px;
-  }
-  #container .con03 .sns1 {
+  body #container .con03 .top {
     font-size: 18px;
-    margin: 0px;
-    height: 100%;
   }
-  #container .con03 .sns .img3 img {
-    position: absolute;
-    /* border: 1px solid red; */
-    width: 200px;
-    right: 35%;
-    bottom: 0%;
-  }
-  /* 뉴스 */
-  #container .con03 .news {
-    /* border: 1px solid red; */
-    width: 320px;
-  }
-  #container .con03 .news2 {
-    margin: 0px;
-  }
-  #container .con03 .news p {
-    /* border: 1px solid red; */
-    font-size: 17px;
-  }
-  #container .con03 .news .img4 {
-    /* border: 1px solid red; */
-    display: block;
-    margin-left: 0px;
+  body #container .con03 .sns1 .img3 img {
     width: 200px;
     position: absolute;
     right: 5%;
-    bottom: 0%;
+    bottom: 2%;
+  }
+  /* new */
+  body #container .con03 .news2 {
+    margin: 0px;
+    width: 317px;
+    height: 499px;
+    font-size: 19px;
+    position: relative;
+  }
+
+  body #container .con03 .news .img4 img {
+    display: block;
+
+    width: 200px;
+    position: absolute;
+    right: 5%;
+    bottom: 2%;
   }
   /* footer */
   body footer {
-    background-color: #252726;
-    height: 100px;
     width: 100%;
-    color: #fff;
+    font-size: 1.5rem;
   }
-  body footer .last {
-    align-items: center;
-  }
-
   body footer .last2 a {
     display: block;
   }
   body footer .last2 img {
     display: block;
     width: 35px;
-  }
-  body footer .last .foot {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-
-    font-size: 1.5rem;
   }
   body footer .foot p:nth-child(2) {
     color: #747675;
