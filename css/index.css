@@ -163,6 +163,7 @@ body {
     gap: 1rem;
     justify-content: center;
     align-items: center;
+    transform: translateY(200px);
   }
   .con01 .txt2 p:nth-child(2) {
     margin: 20px 0px;
@@ -183,6 +184,7 @@ body {
     font-size: 1.5rem;
     padding: 20px 0px;
     position: relative;
+    opacity: 0;
   }
   /* con02 box */
   .con02 .box1 {
@@ -297,6 +299,7 @@ body {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    /* opacity: 0; */
   }
   .con03 .question {
     display: flex;
@@ -317,6 +320,8 @@ body {
   .con03 .woeks {
     width: 400px;
     position: relative;
+
+    transform: translateY(200px);
   }
   .con03 .box4 p:nth-child(2) {
     display: flex;
@@ -335,8 +340,12 @@ body {
   }
   /* box5 */
 
-  .con03 .img3 {
-    margin-left: 100px;
+  .con03 .img3 img {
+    /* border: 1px solid red; */
+    display: block;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
   }
   .con03 .sns {
     width: 400px;
@@ -364,7 +373,10 @@ body {
   }
   /* sns */
   .con03 .sns1 {
-    margin: 10px;
+    /* border: 1px solid red; */
+    transform: translateY(200px);
+    height: 100%;
+    position: relative;
   }
   .con03 .sns1 .top {
     font-size: 1.2rem;
@@ -390,9 +402,9 @@ body {
   /* news */
   .con03 .news {
     position: relative;
+    transform: translateY(200px);
   }
   .con03 .news2 {
-    margin: 10px;
     font-size: 1.2rem;
   }
   .con03 .news2 a {
@@ -408,15 +420,18 @@ body {
   }
   .con03 .img4 {
     display: block;
+  }
+  .con03 .img4 img {
     position: absolute;
     right: 0%;
     bottom: 0%;
+    width: 200px;
   }
   /* footer */
   footer {
     background-color: #252726;
     height: 100px;
-    font-size: 18px;
+    font-size: 16px;
 
     color: #fff;
   }
@@ -430,7 +445,6 @@ body {
   footer .foot {
     display: flex;
     gap: 1rem;
-    /* justify-content: center; */
     width: calc((100% - -24rem) / 2);
     flex-wrap: wrap;
   }
@@ -532,17 +546,17 @@ body {
 
   /* container left con01 */
   .con01 .left img {
-    width: 300px;
+    width: 200px;
     position: absolute;
-    left: 155%;
-    top: 70%;
+    left: 180%;
+    top: 55%;
   }
 
   .con01 .left .bg2 {
     background-color: rgb(67, 223, 100);
     margin-top: 20px;
     width: 100%;
-    height: 500px;
+    height: 350px;
     border-radius: 25px;
     position: relative;
   }
@@ -711,7 +725,6 @@ body {
   .con03 {
     width: 100%;
     margin: 20px auto;
-    /* display: flex; */
   }
   /* happy */
   .con03 .happy {
@@ -845,7 +858,7 @@ body {
   footer {
     background-color: #252726;
     height: 100px;
-    font-size: 18px;
+    font-size: 16px;
 
     color: #fff;
   }
