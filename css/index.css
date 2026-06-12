@@ -10,9 +10,7 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-body {
-  /* overflow-x: hidden; */
-}
+
 /* pc */
 @media (min-width: 1220px) {
   /* header */
@@ -945,8 +943,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
-
+    padding: 455px 0px;
     position: relative;
   }
   /* txt1 */
@@ -1049,7 +1046,7 @@ body {
     font-size: 1.3rem;
     padding: 20px 0px;
     position: relative;
-    width: 100%;
+    width: 90%;
   }
   /* con02 box */
   .con02 .box1 {
@@ -1154,12 +1151,12 @@ body {
   }
   /* con03 */
   .con03 {
-    width: 95%;
+    width: 90%;
     margin: 20px auto;
   }
   /* happy */
   .con03 .happy {
-    width: 95%;
+    width: 90%;
     margin: 0px auto;
   }
   .con03 .question {
@@ -1168,7 +1165,6 @@ body {
     align-items: center;
     margin: 20px 0px;
     font-size: 1.5rem;
-    width: 95%;
   }
   .con03 .question > img {
     width: 50px;
@@ -1179,7 +1175,7 @@ body {
     line-height: 3rem;
   }
   .con03 .woeks {
-    width: 400px;
+    width: 370px;
     margin: 0px auto;
     position: relative;
   }
