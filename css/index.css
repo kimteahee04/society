@@ -11,7 +11,7 @@ a {
   text-decoration: inherit;
 }
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 /* pc */
 @media (min-width: 1220px) {
@@ -950,9 +950,7 @@ body {
     position: relative;
   }
   /* txt1 */
-  body {
-    overflow-x: hidden;
-  }
+
   #visual .txt1 {
     color: #fff;
     width: 90%;
@@ -1282,9 +1280,8 @@ body {
   /* footer */
   footer {
     background-color: #252726;
-    height: 100px;
-    width: 100%;
-
+    /* height: 100px;
+    width: 100%; */
     color: #fff;
     font-size: 10px;
     line-height: 15px;
