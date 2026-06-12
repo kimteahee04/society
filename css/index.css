@@ -982,10 +982,10 @@ body {
   /* container left con01 */
 
   .con01 .left img {
-    /* border: 1px solid red; */
-    width: 175px;
+    border: 1px solid red;
+    width: 110px;
     position: absolute;
-    left: 70%;
+    left: 60%;
     bottom: -30%;
   }
 
