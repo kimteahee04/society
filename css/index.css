@@ -903,7 +903,7 @@ a {
 }
 
 /* 모바일 */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   header {
     background-color: #fff;
     display: flex;
@@ -950,7 +950,7 @@ a {
 
   #visual .txt1 {
     color: #fff;
-    width: 90%;
+    width: 95%;
     position: absolute;
     bottom: 10%;
     left: 5%;
@@ -1010,7 +1010,7 @@ a {
   /* con01 right */
   .con01 .right a {
     background-color: #faf5ea;
-    width: 90%;
+    width: 95%;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -1046,13 +1046,13 @@ a {
     font-size: 1.3rem;
     padding: 20px 0px;
     position: relative;
-    width: 90%;
+    width: 95%;
   }
   /* con02 box */
   .con02 .box1 {
     background-color: #fff;
     margin: 0px auto;
-    width: 90%;
+    width: 95%;
     height: 90%;
     border-radius: 20px;
     position: relative;
@@ -1067,7 +1067,7 @@ a {
   .con02 .box2 {
     background-color: #fff;
     margin: 20px auto;
-    width: 90%;
+    width: 95%;
     height: 90%;
     border-radius: 20px;
     position: relative;
@@ -1151,12 +1151,12 @@ a {
   }
   /* con03 */
   .con03 {
-    width: 90%;
+    width: 95%;
     margin: 20px auto;
   }
   /* happy */
   .con03 .happy {
-    width: 90%;
+    width: 95%;
     margin: 0px auto;
   }
   .con03 .question {
@@ -1302,7 +1302,7 @@ a {
     display: none;
   }
   footer .last2 {
-    width: 90%;
+    width: 95%;
     display: flex;
     gap: 1.2rem;
     margin-top: 10px;
