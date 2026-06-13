@@ -1050,10 +1050,11 @@ a {
   }
   /* con02 box */
   .con02 .box1 {
+    border: 1px solid red;
     background-color: #fff;
     margin: 0px auto;
     width: 95%;
-    height: 90%;
+    height: auto;
     border-radius: 20px;
     position: relative;
   }
@@ -1065,10 +1066,11 @@ a {
   }
 
   .con02 .box2 {
+    border: 1px solid red;
     background-color: #fff;
     margin: 20px auto;
     width: 95%;
-    height: 90%;
+    height: auto;
     border-radius: 20px;
     position: relative;
   }
@@ -1140,6 +1142,7 @@ a {
     top: 10%;
   }
   .con02 .img1 {
+    border: 1px solid red;
     background-color: #ff488a;
     border-radius: 50%;
     display: block;
@@ -1174,11 +1177,16 @@ a {
   .con03 .box4 {
     line-height: 3rem;
   }
-  .con03 .woeks {
-    width: 370px;
-    margin: 0px auto;
-    position: relative;
+  .con03 .woeks,
+  .con03 .sns,
+  .con03 .news {
+    width: 100%;
   }
+  .con03 .img3,
+  .con03 .img4 {
+    text-align: right;
+  }
+
   .con03 .box4 p:nth-child(2) {
     display: flex;
     gap: 1rem;
@@ -1196,15 +1204,6 @@ a {
   }
   /* box5 */
 
-  .con03 .img3 {
-    /* border: 1px solid red; */
-    margin-left: 100px;
-  }
-  .con03 .sns {
-    width: 400px;
-    margin: 0px auto;
-  }
-
   .con03 .box5 {
     margin: 70px 0px;
   }
@@ -1215,10 +1214,7 @@ a {
     width: 65px;
   }
   /* box6 */
-  .con03 .news {
-    width: 400px;
-    position: relative;
-  }
+
   .con03 .box6 .red_c {
     position: absolute;
     right: 28%;
@@ -1269,10 +1265,12 @@ a {
   .con03 .news a > img {
     width: 20px;
   }
-  .con03 .img4 {
+  /* .con03 .img4 {
+    border: 1px solid red;
+
     display: block;
     margin-left: 135px;
-  }
+  } */
   /* footer */
   footer {
     background-color: #252726;
