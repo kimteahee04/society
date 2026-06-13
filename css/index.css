@@ -1050,7 +1050,6 @@ a {
   }
   /* con02 box */
   .con02 .box1 {
-    border: 1px solid red;
     background-color: #fff;
     margin: 0px auto;
     width: 95%;
@@ -1066,7 +1065,6 @@ a {
   }
 
   .con02 .box2 {
-    border: 1px solid red;
     background-color: #fff;
     margin: 20px auto;
     width: 95%;
@@ -1142,7 +1140,6 @@ a {
     top: 10%;
   }
   .con02 .img1 {
-    border: 1px solid red;
     background-color: #ff488a;
     border-radius: 50%;
     display: block;
@@ -1154,6 +1151,8 @@ a {
   }
   /* con03 */
   .con03 {
+    position: relative;
+
     width: 95%;
     margin: 20px auto;
   }
@@ -1248,7 +1247,6 @@ a {
 
   /* news */
   .con03 .news {
-    position: relative;
   }
   .con03 .news2 {
     margin: 10px;
@@ -1265,12 +1263,7 @@ a {
   .con03 .news a > img {
     width: 20px;
   }
-  /* .con03 .img4 {
-    border: 1px solid red;
 
-    display: block;
-    margin-left: 135px;
-  } */
   /* footer */
   footer {
     background-color: #252726;
