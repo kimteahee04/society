@@ -10,12 +10,13 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-
+body {
+  overflow-x: hidden;
+}
 /* pc */
 @media (min-width: 1220px) {
   /* header */
   header {
-    /* border: 1px solid red; */
     background-color: #fff;
     display: flex;
     gap: 20px;
@@ -497,7 +498,7 @@ a {
     height: 100%;
     display: block;
   }
-  body header .en {
+  body header .icon {
     display: none;
   }
   /* header img */
@@ -721,6 +722,7 @@ a {
   }
   /* con03 */
   .con03 {
+    position: relative;
     width: 100%;
     margin: 20px auto;
   }
@@ -771,12 +773,11 @@ a {
 
   .con03 .sns {
     width: 400px;
-    position: relative;
   }
   .con03 .img3 {
     position: absolute;
     right: 0%;
-    bottom: 0%;
+    bottom: -205%;
   }
   .con03 .img3 > img {
     width: 200px;
@@ -792,7 +793,7 @@ a {
   }
   /* box6 */
   .con03 .news {
-    width: 400px;
+    width: 200px;
     position: relative;
   }
   .con03 .box6 .red_c {
@@ -916,21 +917,39 @@ a {
     position: fixed;
     z-index: 10;
   }
+  header .icon {
+    position: relative;
+    z-index: 20;
+  }
+  header ul {
+    color: #000;
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    padding: 8rem 2rem 0px;
+    /* backdrop-filter: blur(30px); */
+    background: #fff;
+    right: -100%;
+    width: 200px;
+    height: 100vh;
+    transition: 0.5s;
+  }
+  header ul.on {
+    right: 0;
+  }
   /* heade a */
   header a {
     display: block;
   }
   /* header ul */
-  header ul {
-    display: none;
-  }
+
   header .en {
     display: none;
   }
   /* header img */
   header img {
     display: block;
-    height: 110px;
+    height: 80px;
   }
   /* header icon */
 
